@@ -4,8 +4,12 @@
   "description": "compile JavaScript to a smaller, simpler and faster version",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint minize.js"
   },
+  "pre-commit": [
+    "lint"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jelly/minimaljs.git"
@@ -24,6 +28,7 @@
     "acorn": "^5.0.3"
   },
   "devDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^3.19.0",
+    "pre-commit": "^1.2.2"
   }
 }
