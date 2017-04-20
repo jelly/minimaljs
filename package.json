@@ -22,5 +22,8 @@
   "homepage": "https://github.com/jelly/minimaljs#readme",
   "dependencies": {
     "acorn": "^5.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }
