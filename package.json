@@ -1,0 +1,26 @@
+{
+  "name": "minimaljs",
+  "version": "1.0.0",
+  "description": "compile JavaScript to a smaller, simpler and faster version",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jelly/minimaljs.git"
+  },
+  "keywords": [
+    "compile",
+    "ast"
+  ],
+  "author": "Jelle van der Waa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jelly/minimaljs/issues"
+  },
+  "homepage": "https://github.com/jelly/minimaljs#readme",
+  "dependencies": {
+    "acorn": "^5.0.3"
+  }
+}
