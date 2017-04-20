@@ -1,8 +1,8 @@
 {
-  "name": "minimaljs",
+  "name": "minizejs",
   "version": "1.0.0",
   "description": "compile JavaScript to a smaller, simpler and faster version",
-  "main": "index.js",
+  "main": "minize.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint minize.js"
