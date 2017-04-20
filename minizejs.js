@@ -8,5 +8,11 @@ if (process.argv.length <= 2) {
 
 const file = process.argv[2];
 const content = fs.readFileSync(file);
-const ast = acorn.parse(content);
-console.log(ast);
+
+var tokens = [];
+const ast = acorn.parse(content, {onToken: tokens});
+
+var code = '';
+for (let token of ast.body) {
+  console.log(token);
+}
